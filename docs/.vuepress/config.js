@@ -36,13 +36,19 @@ module.exports = {
     anchor: { permalink: true, permalinkBefore: true, permalinkSymbol: '#' }, // 锚点配置
     toc: { includeLevel: [1, 2, 3] } // [[toc]]目录
   },
+  head: [
+    [
+      'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
+      { rel: 'icon', href: 'favicon.ico' }
+    ]
+  ],
   themeConfig: {
     nextLinks: true, // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
     prevLinks: true, // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/home' },
-      { text: '仓库', link: 'http://code.local/yx-property' },
+      { text: '仓库', link: 'https://github.com/gg3083/interview_record.git' },
       { text: 'Google', link: 'https://www.google.com' }
     ],
     displayAllHeaders: false,
