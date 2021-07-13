@@ -1,0 +1,16 @@
+{
+  "name": "interview_record",
+  "version": "1.0.0",
+  "repository": "https://github.com/gg3083/interview_record.git",
+  "author": "gg3083.cn@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "git subtree push --prefix=docs/.vuepress/dist origin gh-pages"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "vuepress": "^1.5.0"
+  }
+}
