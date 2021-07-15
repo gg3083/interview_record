@@ -1,3 +1,0 @@
-# Demo one
-
-## Demo tone
